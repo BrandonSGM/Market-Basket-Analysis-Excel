@@ -85,3 +85,11 @@ Use of merge inner join in Power Query to create Basket Base table with some tra
 The pair Usb Hub | Webcam appears in 5.51% of all orders,
 making it one of the strongest cross-selling opportunities in the dataset.
 
+The 14.33% of customers that buy WebCam to buy Usb Hub,
+making it one of the strongest cross-selling opportunities in the dataset.
+
+The analysis shows low Lift values across all product combinations,
+indicating that purchases are largely independent and not driven by strong product associations.
+
+Built a product recommendation engine using association rules,
+leveraging confidence to identify cross-selling opportunities.
