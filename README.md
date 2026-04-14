@@ -1,6 +1,19 @@
-# 🛒 Market Basket Analysis — Caso tipo Amazon (Excel + Power BI Stack)
+![Excel](https://img.shields.io/badge/Tool-Excel-green)
+![Power Query](https://img.shields.io/badge/ETL-PowerQuery-blue)
+![DAX](https://img.shields.io/badge/Language-DAX-orange)
 
 [English](#english) | [Español](#español)
+
+# 🛒 Market Basket Analysis — Caso tipo Amazon (Excel + Power BI Stack)
+> Built an Amazon-style recommendation engine in Excel using association rules (Support, Confidence, Lift).
+
+## 🚀 Key Results
+
+- Top product pair: USB Hub & Webcam (5.51% support)
+- Highest recommendation confidence: 14.3%
+- No strong associations found (Lift < 1 across dataset)
+- Built dynamic recommendation engine in Excel
+
 
 # English
 ## 📸 Executive Overview Preview
@@ -42,10 +55,19 @@ To answer:
 * Pivot Tables & Dashboard Design
 
 ---
-
 # 📅 Project Development
 
 ---
+
+## 🧠 Methodology
+
+1. Data Cleaning & Validation  
+2. Data Modeling (Star Schema)  
+3. Market Basket Transformation  
+4. Association Metrics Calculation  
+5. Recommendation Engine Development  
+---
+
 
 ## 🔹 Day 1 — Data Validation & Cleaning
 
@@ -167,7 +189,7 @@ Using Power Query:
 
 ---
 
-## 🔹 Recommendation Engine (Amazon-style)
+## 🚀 Product Recommendation Engine (Core Feature)
 
 Built an interactive system:
 
@@ -212,6 +234,12 @@ Built an interactive system:
 * Collect richer data to improve association strength
 
 ---
+## 💰 Potential Business Impact
+
+- Increase Average Order Value through cross-selling
+- Improve product discovery via recommendations
+- Enable bundle creation strategies
+---
 
 # ⚠️ Limitations
 
@@ -255,8 +283,35 @@ Market Basket Analysis/
 ```
 ---
 
+## ▶️ How to Use
+
+1. Open the Excel file  
+2. Navigate to "Recommender" sheet  
+3. Use the product slicer  
+4. Explore recommended products dynamically  
+---
+
+## 🧩 Skills Demonstrated
+
+- Data Cleaning & Transformation (Power Query)
+- Data Modeling (Star Schema)
+- DAX Calculations (Support, Confidence, Lift)
+- Business Analysis & Insight Generation
+- Dashboard Design in Excel
+---
+
 
 # Español
+# 🛒 Análisis de cesta de la compra — Caso tipo Amazon (Excel + Power BI Stack)
+> Se creó un motor de recomendaciones al estilo de Amazon en Excel utilizando reglas de asociación (Soporte, Confianza, Lift).
+
+## 🚀 Resultados clave
+
+- Mejor combinación de productos: Hub USB y cámara web (5,51 % de soporte)
+- Mayor confianza en la recomendación: 14,3 %
+- No se encontraron asociaciones fuertes (Lift < 1 en todo el conjunto de datos)
+- Se creó un motor de recomendaciones dinámico en Excel
+
 ## 📌 Resumen
 
 Este proyecto simula un **sistema de recomendaciones al estilo Amazon** utilizando únicamente:
@@ -402,7 +457,7 @@ Usando Power Query:
 
 ### Hallazgos clave
 
-* El par **Concentrador USB | La cámara web aparece en el **5,51% de todos los pedidos**.
+* El par **USB hub | La cámara web aparece en el **5,51% de todos los pedidos**.
 * El **14,33% de los clientes que compran una cámara web también compran un concentrador USB**.
 * La mayoría de los valores de Lift son **inferiores a 1**, lo que indica asociaciones débiles.
 
@@ -459,6 +514,12 @@ Sistema interactivo:
 * Recopilar datos más completos para mejorar la asociación Fortalezas
 
 ---
+## 💰 Impacto potencial en el negocio
+
+- Aumentar el valor promedio del pedido mediante la venta cruzada
+- Mejorar el descubrimiento de productos a través de recomendaciones
+- Facilitar estrategias de creación de paquetes
+---
 
 # ⚠️ Limitaciones
 
@@ -500,3 +561,21 @@ Market Basket Analysis/
 │   ├── recommender-preview.png
 │   ├── final-insights-preview.png
 ```
+
+---
+## ▶️ Cómo usar
+
+1. Abre el archivo de Excel
+2. Ve a la hoja "Recomendadores"
+3. Usa el filtro de productos
+4. Explora los productos recomendados dinámicamente
+---
+
+## 🧩 Habilidades demostradas
+
+- Limpieza y transformación de datos (Power Query)
+- Modelado de datos (Esquema de estrella)
+- Cálculos DAX (Soporte, Confianza, Lift)
+- Análisis de negocio y generación de insights
+- Diseño de paneles de control en Excel
+---
